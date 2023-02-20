@@ -22,7 +22,7 @@ body {
 /* #REGION UTULITIES */
 
 .container {
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 
@@ -43,17 +43,21 @@ body {
     height: 70px;
 }
 
-.debug .logo{
-    width: 50%;
+.debug .container{
+   
     height: 30px;
     background-color: yellowgreen;
 }
 
-.debug .menu{
-    width: 50%;
-    height: 30px;
-    background-color: rgb(73, 98, 22);
-}
+
 
 
 /* #ENDREGION DEBUG */
+
+/* MEDIA QUERY */
+@media screen and (min-width: 480px) {
+    .big-container{
+        width: 90%;
+        margin: auto;
+    }
+}
