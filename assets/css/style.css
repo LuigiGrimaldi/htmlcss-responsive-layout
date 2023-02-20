@@ -56,8 +56,15 @@ body {
 
 /* MEDIA QUERY */
 @media screen and (min-width: 480px) {
-    .big-container{
+    .container{
         width: 90%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container{
+        width: 60%;
         margin: auto;
     }
 }
