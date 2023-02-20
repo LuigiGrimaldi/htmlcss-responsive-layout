@@ -1,11 +1,59 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'PT Sans', sans-serif;
 }
 
 
+/* #REGION HEADER */
+
+#site-header {
+    background-color: #0084fd;
+    padding: 1rem;
+}
+
+/* #ENDREGION HEADER */
+
+
+/* #REGION UTULITIES */
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+
+/* #ENDREGION UTILITIES */
+
+/* REGION DEBUG */
+
+.debug #site-header {
+    height: 70px;
+}
+
+.debug .logo{
+    width: 50%;
+    height: 30px;
+    background-color: yellowgreen;
+}
+
+.debug .menu{
+    width: 50%;
+    height: 30px;
+    background-color: rgb(73, 98, 22);
+}
+
+
+/* #ENDREGION DEBUG */
