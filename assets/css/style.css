@@ -24,6 +24,12 @@ body {
     padding: 1rem;
 }
 
+.row-menu .menu{
+    padding: 0.3rem;
+    gap: 1rem;
+    display: flex;
+}
+
 /* #ENDREGION HEADER */
 
 /* #REGION MAIN */
@@ -37,6 +43,7 @@ body {
 }
 
 .row .col{
+    width: ;
     border-radius: 3%;
     background-color: var(--r-secondary);
 }
@@ -110,7 +117,7 @@ body {
 /* #ENDREGION DEBUG */
 
 /* MEDIA QUERY */
-@media screen and (min-width: 480px) {
+/* @media screen and (min-width: 480px) {
     .container{
         width: 90%;
         margin: auto;
@@ -131,4 +138,4 @@ body {
     }
 
 
-}
+} */
