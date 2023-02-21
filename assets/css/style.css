@@ -24,7 +24,7 @@ body {
     padding: 1rem;
 }
 
-.row-menu .menu {
+.row .menu {
     padding: 0.3rem;
     gap: 1rem;
     display: flex;
@@ -32,7 +32,7 @@ body {
 
 .menu .btn {
     background-color: white;
-    border-radius: 30%;
+    border-radius: 10%;
     padding: 0.5rem;
 }
 
@@ -59,21 +59,14 @@ body {
     background-color: var(--r-secondary);
 }
 
-.row .col0 {
-    width: 61%;
+/* Section Strategy */
+.strategy .col-left{
+    width: calc(80% / 2);
 }
 
-.col1,
-.col2,
-.col3,
-.col4 {
-    background-color: var(--r-secondary);
-    border-radius: 5%;
-
+.strategy .col-right{
+    width: calc(80% / 2);
 }
-
-
-
 
 
 /* #ENDREGION MAIN */
@@ -99,12 +92,16 @@ body {
     flex-wrap: wrap;
 }
 
-.col-6 {
-    width: 60%;
+.app .col-left {
+    width: 65%;
+}
+
+.app .col-right {
+    width: 32%;
 }
 
 .col-4 {
-    width: calc((90% / 12) * 4)
+    width: calc(95% / 3)
 }
 
 .mt-1 {
@@ -150,6 +147,15 @@ body {
     height: 600px;
 }
 
+.debug .strategy .col-left{
+    background-color: rgb(88, 225, 34);
+    height: 300px;
+}
+
+.debug .strategy .col-right{
+    height: 300px;
+    background-color: #333333;
+}
 
 
 /* #ENDREGION DEBUG */
