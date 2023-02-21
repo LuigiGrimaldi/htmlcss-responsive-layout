@@ -30,6 +30,17 @@ body {
     display: flex;
 }
 
+.menu .btn{
+    background-color: white;
+    border-radius: 30%;
+    padding: 0.5rem;
+}
+
+.menu > span{
+    padding: 0.5rem;
+    color: white;
+}
+
 /* #ENDREGION HEADER */
 
 /* #REGION MAIN */
@@ -53,7 +64,7 @@ body {
 /* #REGION UTULITIES */
 
 .container {
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
@@ -100,8 +111,8 @@ body {
 
 .debug .row-menu{
    
-    height: 30px;
-    background-color: yellowgreen;
+    
+   
 }
 
 .debug .col{
