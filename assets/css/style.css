@@ -8,35 +8,35 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
-:root{
-    --r-primay:#9792e4;
-    --r-header:#0084fd;
-    --r-dark:#333333;
-    --r-secondary:#b5ddff;
-    --r-greend:#fdc15f;
+:root {
+    --r-primay: #9792e4;
+    --r-header: #0084fd;
+    --r-dark: #333333;
+    --r-secondary: #b5ddff;
+    --r-greend: #fdc15f;
 
 }
 
 /* #REGION HEADER */
 
 #site-header {
-    background-color:var(--r-header);
+    background-color: var(--r-header);
     padding: 1rem;
 }
 
-.row-menu .menu{
+.row-menu .menu {
     padding: 0.3rem;
     gap: 1rem;
     display: flex;
 }
 
-.menu .btn{
+.menu .btn {
     background-color: white;
     border-radius: 30%;
     padding: 0.5rem;
 }
 
-.menu > span{
+.menu>span {
     padding: 0.5rem;
     color: white;
 }
@@ -45,27 +45,36 @@ body {
 
 /* #REGION MAIN */
 
-#site-main{
+#site-main {
     margin-top: 2rem;
 }
 
-.strategy{
+.strategy {
     background-color: var(--r-primay)
 }
 
-.row .col{
+.row .col {
 
-    border-radius: 3%;
+    border-radius: 5%;
     background-color: var(--r-secondary);
 }
 
-.row .col0{
-    width: 60%;
+.row .col0 {
+    width: 61%;
 }
 
-.row .col1{
-    width: 37%;
+.col1,
+.col2,
+.col3,
+.col4 {
+    background-color: var(--r-secondary);
+    border-radius: 5%;
+
 }
+
+
+
+
 
 /* #ENDREGION MAIN */
 
@@ -78,34 +87,40 @@ body {
 
 .d-flex {
     display: flex;
+    justify-content: center;
 }
 
-.between{
+
+.between {
     justify-content: space-between;
 }
 
-.wrap{
+.wrap {
     flex-wrap: wrap;
 }
 
-.col-6{
+.col-6 {
     width: 60%;
 }
 
-.col-4{
-    width: calc(100% / 12)
+.col-4 {
+    width: calc((90% / 12) * 4)
 }
 
-.mt-1{
+.mt-1 {
     margin-top: 1rem;
 }
 
-.mt-2{
+.mt-2 {
     margin-top: 2rem
 }
 
-.mt-3{
+.mt-3 {
     margin-top: 3rem;
+}
+
+.g1{
+    gap: 1rem;
 }
 
 
@@ -117,17 +132,21 @@ body {
     height: 70px;
 }
 
-.debug .row-menu{
-   
-    
-   
-}
+.debug .row-menu {}
 
-.debug .col{
+.debug .col {
     height: 300px;
 }
 
-.debug .strategy{
+.debug .col1,
+.col2,
+.col3,
+.col4 {
+    height: 300px;
+
+}
+
+.debug .strategy {
     height: 600px;
 }
 
