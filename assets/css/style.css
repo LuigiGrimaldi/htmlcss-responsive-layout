@@ -54,9 +54,17 @@ body {
 }
 
 .row .col{
-    width: ;
+
     border-radius: 3%;
     background-color: var(--r-secondary);
+}
+
+.row .col0{
+    width: 60%;
+}
+
+.row .col1{
+    width: 37%;
 }
 
 /* #ENDREGION MAIN */
@@ -85,7 +93,7 @@ body {
 }
 
 .col-4{
-    width: 40%;
+    width: calc(100% / 12)
 }
 
 .mt-1{
