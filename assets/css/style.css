@@ -53,23 +53,77 @@ body {
     background-color: var(--r-primay)
 }
 
-.row .col {
+.app .row .col {
 
     border-radius: 5%;
     background-color: var(--r-secondary);
 }
 
 /* Section Strategy */
-.strategy .col-left{
+.strategy .col-left {
     width: calc(80% / 2);
 }
 
-.strategy .col-right{
+.strategy .col-right {
     width: calc(80% / 2);
 }
+
+/* Section Partners */
+.partners .row .col {
+    background-color: var(--r-primay);
+    border-radius: 5%;
+    padding: 100px;
+}
+
+/* Section Benefit */
+.benefits {
+    background-color: var(--r-primay);
+}
+
+.benefits .row {
+    padding: 3rem;
+    gap: 2.5rem;
+}
+
+.benefits .col {
+    background-color: white;
+    width: calc((100% / 12) * 3);
+    border-radius: 5%;
+}
+
+/* Section About */
+.about .col-left {
+    width: 70%;
+}
+
+.about .col-right {
+    width: 27%;
+}
+
+/* Section Free */
+    .free{
+        background-color: var(--r-primay);
+    }
+
+    .free .col{
+        
+    }
 
 
 /* #ENDREGION MAIN */
+
+
+/* #REGION FOOTER */
+    #site-footer{
+        background-color: var(--r-dark);
+
+    }
+
+/* #ENDREGION FOOTER */
+
+
+
+
 
 /* #REGION UTULITIES */
 
@@ -116,8 +170,16 @@ body {
     margin-top: 3rem;
 }
 
-.g1{
+.g1 {
     gap: 1rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.p-4{
+    padding: 4rem;
 }
 
 
@@ -147,14 +209,60 @@ body {
     height: 600px;
 }
 
-.debug .strategy .col-left{
+.debug .strategy .col-left {
     background-color: rgb(88, 225, 34);
     height: 300px;
 }
 
-.debug .strategy .col-right{
+.debug .strategy .col-right {
     height: 300px;
     background-color: #333333;
+}
+
+.debug .partners {
+    height: 900px;
+}
+
+.debug .benefits {
+    height: 600px;
+}
+
+.debug .benefits .col {
+    height: 250px;
+}
+
+
+.debug .about {
+    height: 600px;
+}
+
+
+.debug .about .col-left {
+    height: 300px;
+    background-color: #0084fd;
+}
+
+.debug .about .col-right {
+    height: 300px;
+    background-color: #fdc15f;
+}
+
+.debug .free{
+    height: 500px;
+}
+
+.debug .free .col{
+    background-color: white;
+    height: 150px;
+}
+
+.debug #site-footer{
+    height: 400px;
+}
+
+.debug #site-footer .col{
+    height: 200px;
+    background-color: antiquewhite;
 }
 
 
